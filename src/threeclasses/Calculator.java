@@ -7,7 +7,8 @@ package threeclasses;
 public class Calculator {
     
     private double  numOne,
-                    numTwo;
+                    numTwo,
+                    total;
 
     public double getNumOne() {
         return numOne;
@@ -25,19 +26,27 @@ public class Calculator {
         this.numTwo = numTwo;
     }
     
+    public double getTotal() {
+        return total;
+    }
+    
     public double add(double numOne, double numTwo) {
-        return numOne + numTwo;
+        total = numOne + numTwo;
+        return total;
     }
     
     public double subtract(double numOne, double numTwo) {
-        return numOne - numTwo;
+        total = numOne - numTwo;
+        return total;
     }
     
     public double multiply(double numOne, double numTwo) {
-        return numOne * numTwo;
+        total = numOne * numTwo;
+        return total;
     }
     
     public double divide(double numOne, double numTwo) {
-        return numOne / numTwo;
+        total = numOne / numTwo;
+        return total;
     }    
 }
