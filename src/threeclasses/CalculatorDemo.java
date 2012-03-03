@@ -1,7 +1,11 @@
 package threeclasses;
 
 /**
- *
+ * This is a poor solution. Bypassed incorrect methods written
+ * in Calculator class.
+ * 
+ * Branch1 has the correct solution
+ * 
  * @author Barb Beiswenger
  */
 public class CalculatorDemo {
