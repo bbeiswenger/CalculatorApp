@@ -9,11 +9,6 @@ public class Calculator implements Calculate {
     private double  numOne,
                     numTwo,
                     total;
-
-//    public Calculator(double numOne, double numTwo) {
-//        this.numOne = numOne;
-//        this.numTwo = numTwo;
-//    }
     
     public double getNumOne() {
         return numOne;
@@ -35,22 +30,30 @@ public class Calculator implements Calculate {
         return total;
     }
     
-    public double add(double numOne, double numTwo) {
-        total = numOne + numTwo;
+    public double add(double num1, double num2) {
+        this.setNumOne(num1);
+        this.setNumTwo(num2);
+        total = num1 + num2;
         return total;
     }
     
-    public double subtract(double numOne, double numTwo) {
+    public double subtract(double num1, double num2) {
+        this.setNumOne(num1);
+        this.setNumTwo(num2);
         total = numOne - numTwo;
         return total;
     }
     
-    public double multiply(double numOne, double numTwo) {
+    public double multiply(double num1, double num2) {
+        this.setNumOne(num1);
+        this.setNumTwo(num2);
         total = numOne * numTwo;
         return total;
     }
     
-    public double divide(double numOne, double numTwo) {
+    public double divide(double num1, double num2) {
+        this.setNumOne(num1);
+        this.setNumTwo(num2);
         total = numOne / numTwo;
         return total;
     }    

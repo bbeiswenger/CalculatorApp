@@ -9,20 +9,21 @@ public class CalculatorDemo {
     public static void main(String[] args) {
         
         Calculator calculator = new Calculator();
-        
-        double numOne;
-        double numTwo;
-        
-        calculator.add(num1, num2);
-        System.out.println(num1 + " + " + num2 + " = " + calculator.getTotal());
+                 
+        calculator.add(8, 4);
+        System.out.println(calculator.getNumOne() + " + " + calculator.getNumTwo() 
+                + " = " + calculator.getTotal());
          
-        calculator.subtract(num1, num2);
-        System.out.println(num1 + " - " + num2 + " = " + calculator.getTotal());
+        calculator.subtract(20, 10);
+        System.out.println(calculator.getNumOne() + " - " + calculator.getNumTwo() 
+                + " = " + calculator.getTotal());
         
-        calculator.multiply(num1, num2);
-        System.out.println(num1 + " * " + num2 + " = " + calculator.getTotal());
+        calculator.multiply(13, 3);
+        System.out.println(calculator.getNumOne() + " * " + calculator.getNumTwo() 
+                + " = " + calculator.getTotal());
 
-        calculator.divide(num1, num2);                
-        System.out.println(num1 + " / " + num2 + " = " + calculator.getTotal());
+        calculator.divide(25, 10);                
+        System.out.println(calculator.getNumOne() + " / " + calculator.getNumTwo() 
+                + " = " + calculator.getTotal());
     }
 }
