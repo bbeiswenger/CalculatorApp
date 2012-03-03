@@ -8,9 +8,10 @@ public class CalculatorDemo {
 
     public static void main(String[] args) {
         
-        Calculator calculator = new Calculator(25, 10);
-        double num1 = calculator.getNumOne();
-        double num2 = calculator.getNumTwo();
+        Calculator calculator = new Calculator();
+        
+        double numOne;
+        double numTwo;
         
         calculator.add(num1, num2);
         System.out.println(num1 + " + " + num2 + " = " + calculator.getTotal());

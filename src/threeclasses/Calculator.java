@@ -10,10 +10,10 @@ public class Calculator implements Calculate {
                     numTwo,
                     total;
 
-    public Calculator(double numOne, double numTwo) {
-        this.numOne = numOne;
-        this.numTwo = numTwo;
-    }
+//    public Calculator(double numOne, double numTwo) {
+//        this.numOne = numOne;
+//        this.numTwo = numTwo;
+//    }
     
     public double getNumOne() {
         return numOne;
