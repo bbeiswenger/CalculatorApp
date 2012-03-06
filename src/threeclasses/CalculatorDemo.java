@@ -9,22 +9,22 @@ public class CalculatorDemo {
 
     public static void main(String[] args) {
         
-        Calculator calculator = new Calculator();
+        CalculatorService cs = new CalculatorService(calculator);
                  
-        calculator.add(8, 4);
-        System.out.println("Add: " + calculator.getNumOne() 
-                + " + " + calculator.getNumTwo() + " = " + calculator.getTotal());
+        cs.add(8, 4);
+        System.out.println("Add: " + cs.getNumOne() 
+                + " + " + cs.getNumTwo() + " = " + cs.getTotal());
          
-        calculator.subtract(20, 10);
-        System.out.println("Subtract: " + calculator.getNumOne() 
-                + " - " + calculator.getNumTwo() + " = " + calculator.getTotal());
+        cs.subtract(20, 10);
+        System.out.println("Subtract: " + cs.getNumOne() 
+                + " - " + cs.getNumTwo() + " = " + cs.getTotal());
         
-        calculator.multiply(13, 3);
-        System.out.println("Multiply: " + calculator.getNumOne() 
-                + " * " + calculator.getNumTwo() + " = " + calculator.getTotal());
+        cs.multiply(13, 3);
+        System.out.println("Multiply: " + cs.getNumOne() 
+                + " * " + cs.getNumTwo() + " = " + cs.getTotal());
 
-        calculator.divide(25, 10);                
-        System.out.println("Divide: " + calculator.getNumOne() 
-                + " / " + calculator.getNumTwo() + " = " + calculator.getTotal());
+        cs.divide(25, 10);                
+        System.out.println("Divide: " + cs.getNumOne() 
+                + " / " + cs.getNumTwo() + " = " + cs.getTotal());
     }
 }
