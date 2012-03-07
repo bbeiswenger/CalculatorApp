@@ -9,7 +9,7 @@ public class CalculatorDemo {
 
     public static void main(String[] args) {
         
-        Calculate calculator = new Calculator();
+        GenericCalculator calculator = new SimpleCalculator();
         
         CalculatorService cs = new CalculatorService(calculator);
                  

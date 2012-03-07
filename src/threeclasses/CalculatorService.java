@@ -4,11 +4,11 @@ package threeclasses;
  *
  * @author Barb Beiswenger
  */
-public class CalculatorService implements Calculate {
+public class CalculatorService implements GenericCalculator {
     
-    private Calculate calculator;
+    private GenericCalculator calculator;
 
-    public CalculatorService(Calculate calculator) {
+    public CalculatorService(GenericCalculator calculator) {
         this.calculator = calculator;
     }
     

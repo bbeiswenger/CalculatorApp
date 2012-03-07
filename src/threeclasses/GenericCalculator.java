@@ -8,7 +8,7 @@ package threeclasses;
  *
  * @author barb
  */
-public interface Calculate {
+public interface GenericCalculator {
 
     double add(double num1, double num2);
 

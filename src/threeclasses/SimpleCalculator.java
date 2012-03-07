@@ -4,7 +4,7 @@ package threeclasses;
  *
  * @author Barb Beiswenger
  */
-public class Calculator implements Calculate {
+public class SimpleCalculator implements GenericCalculator {
     
     private double  numOne,
                     numTwo,
