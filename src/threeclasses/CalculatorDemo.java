@@ -9,6 +9,8 @@ public class CalculatorDemo {
 
     public static void main(String[] args) {
         
+        Calculate calculator = new Calculator();
+        
         CalculatorService cs = new CalculatorService(calculator);
                  
         cs.add(8, 4);
